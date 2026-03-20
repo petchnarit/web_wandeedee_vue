@@ -3,12 +3,12 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <!-- Navbar brand with responsive variants -->
-        <a class="navbar-brand d-inline-flex text-uppercase hidden-xs-down" href="https://wandeedee.co/">
+        <router-link class="navbar-brand d-inline-flex text-uppercase hidden-xs-down" to="/">
           วันดีดี - WANDEEDEE
-        </a>
-        <a class="navbar-brand d-inline-flex text-uppercase hidden-sm-up" href="https://wandeedee.co/">
+        </router-link>
+        <router-link class="navbar-brand d-inline-flex text-uppercase hidden-sm-up" to="/">
           WANDEEDEE
-        </a>
+        </router-link>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>
@@ -35,7 +35,7 @@
     <!-- Footer -->
     <footer class="text-bg-light">
       <div class="container py-5 py-lg-6 text-center">
-        <img src="https://wandeedee.co/assets/img/logo/logo.webp" class="" width="100" height="100" alt="วันดีดี ช่างภาพอ่างทอง ช่างภาพอยุธยา">
+        <img src="/assets/img/logo/logo.webp" class="" width="100" height="100" alt="วันดีดี ช่างภาพอ่างทอง ช่างภาพอยุธยา">
         <div class="row justify-content-md-between">
           <div class="col-md-12">
             <ul class="list-inline mt-3 mb-0 text-center">
@@ -57,7 +57,7 @@
             </ul>
             <div class="text-secondary text-center mt-3">
               Copyrights ©2026
-              <a class="text-secondary" href="https://petchnarit.github.io/test2026_2/"> wandeedee </a>
+              <router-link to="/" class="text-secondary"> wandeedee </router-link>
             </div>
           </div>
         </div>
